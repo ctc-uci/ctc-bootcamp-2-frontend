@@ -1,0 +1,25 @@
+:root {
+  --text-color: white;
+  --text-shadow: rgba(255, 255, 255, 0.65);
+  --bg-color: #141414;
+  --bg-accent-color: #252511;
+  --bg-hover-color: #333;
+}
+
+html, body {
+  margin: 0;
+  font-family: 'Fira Code', Consolas, monospace;
+  text-shadow: var(--text-shadow) 1px 0 15px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+}

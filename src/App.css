@@ -1,0 +1,37 @@
+.ctc-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40vw;
+  z-index: -2;
+  translate: -50% -50%;
+  opacity: 0.4;
+  filter: grayscale(100%);
+}
+
+.app-container {
+  display: flex;
+  align-content: stretch;
+  position: absolute;
+  inset: 0;
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 1rem 3rem;
+}
+
+
+.grid{
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-size: 0.5rem 0.5rem;
+  background-image:
+    linear-gradient(to right, black 2px, transparent 2px),
+    linear-gradient(to bottom, black 2px, transparent 2px);
+  opacity: 0.2;
+}
+
